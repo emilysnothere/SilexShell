@@ -1,0 +1,32 @@
+{
+    "name": "Project Name Goes Here",
+    "description": "A description for your project",
+    "authors": [{
+        "name": "Emily Fox",
+        "email": "emily@pmg.com"
+    }],
+    "require": {
+        "php": ">=5.5",
+        "silex/silex": "1.2.*",
+        "symfony/form": "~2.6",
+        "symfony/twig-bridge": "~2.6",
+        "symfony/validator": "~2.6",
+        "symfony/translation": "~2.6",
+        "symfony/config": "~2.6",
+        "symfony/security": "~2.6",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "doctrine/dbal": "~2.5",
+        "monolog/monolog": "~1.13"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PMG\\ProjectNamespace\\": "src/"
+        },
+        "files": [
+            "app/AppKernel.php"
+        ]
+    }
+}

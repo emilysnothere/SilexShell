@@ -1,0 +1,30 @@
+/vendor
+/composer
+/composer.phar
+
+# archives and other useless files
+*.swp
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.7z
+*.pyc
+
+# compile files
+*.com
+*.class
+*.dll
+*.exe
+*.app
+*.o
+*.so
+*.lock
+
+# system files
+.DS_Store*
+Icon?
+Thumbs.db
